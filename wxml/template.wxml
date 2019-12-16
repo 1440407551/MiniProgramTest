@@ -1,0 +1,7 @@
+<!-- <include src="" /> -->
+
+
+<template name="contentItem">
+  <button>{{btnText}}</button>
+  <view>{{content}}</view>
+</template>

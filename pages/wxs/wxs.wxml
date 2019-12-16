@@ -1,0 +1,13 @@
+<!--pages/wxs/wxs.wxml-->
+
+<!-- 错误的写法 -->
+<!-- <view>{{25.66666.toFixed(2)}}</view> -->
+<!-- <view>{{numberToFixed(25.66666)}}</view> -->
+
+<!-- 不能使用绝对路径, 必须使用相对路径 -->
+<wxs src="../../wxs/format.wxs" module="format"/>
+
+
+<view>{{format.priceFormat(price, 3)}}</view>
+
+<view>{{format.darteFormat(1597954952)}}</view>

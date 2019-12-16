@@ -1,0 +1,10 @@
+<!--pages/image/image.wxml-->
+
+<!-- show-menu-by-longpress: 长按图片出现识别小程序码 -->
+<image 
+  src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" 
+  bindload="handleImageLoad"
+  lazy-load
+  show-menu-by-longpress
+  mode="aspectFill"
+/>

@@ -1,0 +1,11 @@
+<!--pages/input/input.wxml-->
+<!-- <input type="text"  />
+<input type="number"  />
+<input type="idcard"  />
+<input type="password"/> -->
+
+<input 
+  bindinput="handleInput"
+  bindfocus="handleFocus"
+  bindblur="handleBlur"
+/>
